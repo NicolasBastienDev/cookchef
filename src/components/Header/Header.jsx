@@ -2,9 +2,9 @@
   /* <i class="fa-solid fa-bars"></i> */
 }
 import styles from "./Header.module.scss";
-import cookchef from "../assets/images/cookchef.png";
+import cookchef from "../../assets/images/cookchef.png";
 import { useState } from "react";
-import HeaderMenu from "./HeaderMenu";
+import HeaderMenu from "./components/HeaderMenu/HeaderMenu";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
